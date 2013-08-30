@@ -2,3 +2,6 @@
 .project
 .settings/
 target/
+FitNesseRoot/ErrorLogs/
+FitNesseRoot/files/testResults/
+FitNesseRoot/RecentChanges/

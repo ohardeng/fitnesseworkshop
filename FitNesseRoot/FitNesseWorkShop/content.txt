@@ -2,6 +2,8 @@
 !path fitlibrary-2.0.jar
 #!path fitnesse.jar
 !path lib/*.jar
+!path target/classes/
+!path target/test-classes/
 !define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
 *!
 
