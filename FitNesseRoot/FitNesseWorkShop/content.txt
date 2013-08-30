@@ -1,0 +1,10 @@
+!*< Setup FitLibrary
+!path fitlibrary-2.0.jar
+#!path fitnesse.jar
+!path lib/*.jar
+!define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
+*!
+
+!1 Toppnivået for vår nye Webshop
+
+!contents -R2 -g -p -f -h

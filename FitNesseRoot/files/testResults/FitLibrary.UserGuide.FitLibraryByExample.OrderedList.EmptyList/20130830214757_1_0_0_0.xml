@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20130530</FitNesseVersion>
+  <rootPath>EmptyList</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>3</runTimeInMillis>
+    <content>&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fitlibrary.eg.Collections&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;ul&gt;
+	&lt;li&gt;Create a list with 4 elements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;list is&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;i&gt;ordered list&lt;/i&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="pass"&gt;
+		&lt;td&gt;&lt;i&gt;item&lt;/i&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>EmptyList</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+
