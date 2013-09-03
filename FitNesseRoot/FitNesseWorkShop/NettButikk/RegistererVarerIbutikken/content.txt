@@ -1,0 +1,8 @@
+!include -setup <FitNesseWorkShop.NettButikk.RegistrerVarer
+
+|Registrerte varer|
+|Varenavn |Pris |
+|Eple     |1    |
+|Pære     |2    |
+|Plomme   |3    |
+
