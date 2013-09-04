@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <properties>
-	<Edit>true</Edit>
-	<Files>true</Files>
-	<Help></Help>
-	<Properties>true</Properties>
-	<RecentChanges>true</RecentChanges>
-	<Refactor>true</Refactor>
-	<Search>true</Search>
+	<Edit/>
+	<Files/>
+	<Help>Denne kan importeres for å legge til varene her i butikken</Help>
+	<Properties/>
+	<RecentChanges/>
+	<Refactor/>
+	<Search/>
+	<Static/>
 	<Suites></Suites>
-	<Versions>true</Versions>
-	<WhereUsed>true</WhereUsed>
+	<Versions/>
+	<WhereUsed/>
 </properties>
