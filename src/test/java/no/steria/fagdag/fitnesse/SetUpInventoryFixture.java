@@ -13,7 +13,10 @@ public class SetUpInventoryFixture extends SetUpFixture {
 	}
 	
 	public void varenavnPris(String varenavn, Double pris) {
-		webShop.registrerVare(new Vare(varenavn, pris));
+		System.out.println(varenavn + ": " + pris);
+		Vare vare = new Vare(varenavn, pris);
+		webShop.registrerVare(vare);
+		System.out.println(vare);
 	}
 
 }

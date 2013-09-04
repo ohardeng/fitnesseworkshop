@@ -1,17 +1,19 @@
 package no.steria.fagdag.domene;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class WebShop {
-	private Set<Vare> varer = new HashSet<>();
+	private Map<Vare, Vare> varer = new HashMap<>();
 	
 	public void registrerVare(Vare vare) {
-		varer.add(vare);
+		varer.put(vare, vare);
 	}
 	
 	public  Set<Vare> getRegistrerteVarer() {
-		return varer;
+		return varer.keySet();
 	}
 	
 	public void fjernRegistrerteVarer(){
@@ -19,7 +21,11 @@ public class WebShop {
 	}
 
 	public boolean contains(Vare vare) {
-		return varer.contains(vare);
+		return varer.keySet().contains(vare);
+	}
+
+	public Vare get(Vare vare) {
+		return varer.get(vare);
 	}
 
 }

@@ -13,6 +13,14 @@ public class Vare {
 	public Vare(String varenavn) {
 		this(varenavn, null);
 	}
+	
+	public String getVarenavn() {
+		return varenavn;
+	}
+	
+	public Double getPris() {
+		return pris;
+	}
 
 	@Override
 	public String toString() {

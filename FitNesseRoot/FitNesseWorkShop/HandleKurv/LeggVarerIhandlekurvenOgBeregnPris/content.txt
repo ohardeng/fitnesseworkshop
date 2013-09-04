@@ -6,7 +6,9 @@
 |2     |Plomme  |2 Plomme lagt i handlekurven       |
 |1     |Hest    |Hest er ikke registrert i butikken.|
 
-|Vis handlekurv |
-|Varenavn|Antall|
-|Eple    |1     |
-|Plomme  |2     |
+|Vis handlekurv          |
+|Varenavn|Antall|Pris|Sum|
+|Eple    |1     |1 |1|
+|Plomme  |2     |3 |6|
+
+|check|Totalsum i handlekurven|7|
