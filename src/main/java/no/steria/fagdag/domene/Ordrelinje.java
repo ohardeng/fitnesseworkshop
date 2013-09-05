@@ -27,4 +27,8 @@ public class Ordrelinje {
 		return getPris()*getAntall();
 	}
 
+	public Double getVekt() {
+		return vare.getVekt()*getAntall();
+	}
+
 }

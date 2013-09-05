@@ -8,7 +8,7 @@
 
 |Vis handlekurv          |
 |Varenavn|Antall|Pris|Sum|
-|Eple    |1     |1 |1|
-|Plomme  |2     |3 |6|
+|Eple    |1     |1   |1  |
+|Plomme  |2     |3   |6  |
 
 |check|Totalsum i handlekurven|7|

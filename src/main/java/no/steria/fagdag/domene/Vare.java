@@ -4,14 +4,16 @@ public class Vare {
 
 	private String varenavn;
 	private Double pris;
+	private Double vekt;
 
-	public Vare(String varenavn, Double pris) {
+	public Vare(String varenavn, Double pris, Double vekt) {
 		this.varenavn = varenavn;
 		this.pris = pris;
+		this.vekt = vekt;
 	}
 
 	public Vare(String varenavn) {
-		this(varenavn, null);
+		this(varenavn, null, null);
 	}
 	
 	public String getVarenavn() {
@@ -22,10 +24,17 @@ public class Vare {
 		return pris;
 	}
 
+	public Double getVekt() {
+		return vekt;
+	}
+	
 	@Override
 	public String toString() {
-		return getClass().getSimpleName() + "[" + "varenavn=" + varenavn + ", "
-				+ "pris=" + pris + "]";
+		StringBuilder sb = new StringBuilder(getClass().getSimpleName()).append("[")
+				.append("varenavn=").append(varenavn).append(", ")
+				.append("pris=").append(pris).append(", ")
+				.append("vekt=").append(vekt).append("]");
+		return sb.toString();
 	}
 
 	@Override
@@ -53,5 +62,5 @@ public class Vare {
 			return false;
 		return true;
 	}
-	
+
 }

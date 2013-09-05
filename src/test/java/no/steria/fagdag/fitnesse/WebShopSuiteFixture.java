@@ -1,6 +1,5 @@
 package no.steria.fagdag.fitnesse;
 
-import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
@@ -33,13 +32,17 @@ public class WebShopSuiteFixture extends SuiteFixture {
 	public Map<Vare, Integer> handlekurvenInneholderNuE5() {
 		return handlekurv.innehold();
 	}
-	
+
 	public Set<Ordrelinje> visHandlekurv() {
 		return handlekurv.getOrdrelinjer();
 	}
 
 	public Double totalsumIHandlekurven() {
 		return handlekurv.sum();
+	}
+	
+	public Integer fraktKostnad() {
+		return handlekurv.fraktKostnad();
 	}
 
 }
