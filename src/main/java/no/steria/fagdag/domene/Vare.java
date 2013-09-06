@@ -8,18 +8,18 @@ public class Vare {
 
 	public Vare(String varenavn, Double pris, Double vekt) {
 		this.varenavn = varenavn;
-		this.pris = pris;
-		this.vekt = vekt;
+		this.pris = pris == null ? 0 : pris;
+		this.vekt = vekt == null ? 0 : vekt;
 	}
 
 	public Vare(String varenavn) {
 		this(varenavn, null, null);
 	}
-	
+
 	public String getVarenavn() {
 		return varenavn;
 	}
-	
+
 	public Double getPris() {
 		return pris;
 	}
@@ -27,13 +27,13 @@ public class Vare {
 	public Double getVekt() {
 		return vekt;
 	}
-	
+
 	@Override
 	public String toString() {
-		StringBuilder sb = new StringBuilder(getClass().getSimpleName()).append("[")
-				.append("varenavn=").append(varenavn).append(", ")
-				.append("pris=").append(pris).append(", ")
-				.append("vekt=").append(vekt).append("]");
+		StringBuilder sb = new StringBuilder(getClass().getSimpleName())
+				.append("[").append("varenavn=").append(varenavn).append(", ")
+				.append("pris=").append(pris).append(", ").append("vekt=")
+				.append(vekt).append("]");
 		return sb.toString();
 	}
 

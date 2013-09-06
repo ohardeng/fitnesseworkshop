@@ -65,6 +65,9 @@ public class Handlekurv {
 	}
 
 	public Integer fraktKostnad() {
+		if(sum() > 500){
+			return 0;
+		}
 		Double totalVekt = 0d;
 		for (Ordrelinje ordrelinje : getOrdrelinjer()) {
 			totalVekt += ordrelinje.getVekt();

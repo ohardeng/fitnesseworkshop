@@ -31,4 +31,12 @@ public class Ordrelinje {
 		return vare.getVekt()*getAntall();
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder(getClass().getSimpleName()).append("[")
+				.append(vare).append(", ")
+				.append("antall=").append(antall).append("]");
+		return sb.toString();
+	}
+
 }

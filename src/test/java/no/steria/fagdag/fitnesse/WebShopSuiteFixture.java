@@ -44,5 +44,13 @@ public class WebShopSuiteFixture extends SuiteFixture {
 	public Integer fraktKostnad() {
 		return handlekurv.fraktKostnad();
 	}
+	
+	public void nyHandlekurv(){
+		handlekurv = new Handlekurv(webShop);
+	}
+	
+	public void leggStkIHandlekurven(Integer antall, Vare vare) {
+		handlekurv.leggVareIHandlekurven(vare, antall);
+	}
 
 }

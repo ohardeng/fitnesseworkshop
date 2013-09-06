@@ -22,4 +22,8 @@ public class SetUpInventoryFixture extends SetUpFixture {
 		webShop.registrerVare(vare);
 	}
 
+	public void varenavnPrisVekt(String varenavn, Double pris, Double vekt) {
+		Vare vare = new Vare(varenavn, pris, vekt);
+		webShop.registrerVare(vare);
+	}
 }
