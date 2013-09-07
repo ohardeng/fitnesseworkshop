@@ -15,6 +15,9 @@ public class WebShopSuiteFixture extends SuiteFixture {
 	private WebShop webShop = new WebShop();
 	private Handlekurv handlekurv;
 
+	public ColumnFixture subtraksjon() { 
+		return new SubtraksjonColumnFixture();
+	}
 	public WebShopSuiteFixture() {
 		System.out.println("Hellu");
 		setSystemUnderTest(webShop);
