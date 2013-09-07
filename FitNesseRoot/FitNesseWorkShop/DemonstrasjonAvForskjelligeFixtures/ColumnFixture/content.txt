@@ -25,4 +25,4 @@ Hvis du ikke setter en variabel vil !-FitNesse-! vise deg hvilken verdi den har,
 |10     |2         |8           |Som tidligere eksempler                                                                                    |
 |       |          |            |"Arver" verdiene fra raden over                                                                            |
 
-!-FitNesse-! sin egen dokumentasjon av !-ColumnFixture-! -> [[!-ColumnFixture-!][.FitNesse.UserGuide.ColumnFixture]]
+!-FitNesse-! sin egen dokumentasjon av [[!-ColumnFixture-!][.FitNesse.UserGuide.ColumnFixture]]

@@ -8,6 +8,7 @@ import no.steria.fagdag.domene.Ordrelinje;
 import no.steria.fagdag.domene.Vare;
 import no.steria.fagdag.domene.WebShop;
 import fit.ColumnFixture;
+import fit.RowEntryFixture;
 import fitlibrary.SetUpFixture;
 import fitlibrary.suite.SuiteFixture;
 
@@ -18,6 +19,15 @@ public class WebShopSuiteFixture extends SuiteFixture {
 	public ColumnFixture subtraksjon() { 
 		return new SubtraksjonColumnFixture();
 	}
+	
+	public SetUpFixture setUpColorLinker() {
+		return new SetUpColorLinker();
+	}
+	
+	public RowEntryFixture rowEntryColorLinker() {
+		return new RowEntryColorLinker();
+	}
+	
 	public WebShopSuiteFixture() {
 		System.out.println("Hellu");
 		setSystemUnderTest(webShop);

@@ -1,6 +1,5 @@
 !*< Setup FitLibrary
-!path fitlibrary-2.0.jar
-#!path fitnesse.jar
+!path ${java.class.path}
 !path lib/*.jar
 !path target/classes/
 !path target/test-classes/
