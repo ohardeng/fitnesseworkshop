@@ -1,3 +1,4 @@
 !contents -g
 !path classes
 !path lib/*.jar
+!path ${java.class.path}
