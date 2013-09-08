@@ -1,5 +1,8 @@
 package no.steria.fagdag.fitnesse;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -10,9 +13,13 @@ import no.steria.fagdag.domene.WebShop;
 import fit.ColumnFixture;
 import fit.RowEntryFixture;
 import fitlibrary.SetUpFixture;
+import fitlibrary.SubsetFixture;
 import fitlibrary.suite.SuiteFixture;
+import fitlibrary.traverse.FitLibrarySelector;
 
 public class WebShopSuiteFixture extends SuiteFixture {
+	List<ListData> list = new ArrayList<>();
+	
 	private WebShop webShop = new WebShop();
 	private Handlekurv handlekurv;
 
@@ -26,6 +33,23 @@ public class WebShopSuiteFixture extends SuiteFixture {
 	
 	public RowEntryFixture rowEntryColorLinker() {
 		return new RowEntryColorLinker();
+	}
+	
+	public SetUpFixture testDataForValideringAvLister() { 
+		list = new ArrayList<>();
+		return new SetUpListData(list);
+	}
+	
+	public Set<ListData> demonstrasjonAvSetFixture() { 
+		return new HashSet<ListData>(list);
+	}
+	
+	public List<ListData> demonstrasjonAvArrayFixture() { 
+		return list;
+	}
+	
+	public SubsetFixture demonstrasjonAvSubSetFixture() {
+		return new SubsetFixture(list);
 	}
 	
 	public WebShopSuiteFixture() {
