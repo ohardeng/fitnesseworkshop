@@ -25,4 +25,14 @@ Hvis du ikke setter en variabel vil !-FitNesse-! vise deg hvilken verdi den har,
 |10     |2         |8           |Som tidligere eksempler                                                                                    |
 |       |          |            |"Arver" verdiene fra raden over                                                                            |
 
+!2 Nøkkelord for celler
+Hvis du ønsker å ha inn den tomme strengen ("") må du benytte nøkkelordet "blank", og hvis du øsnker å sette verdien til ingenting (ikke satt) bruker du ordet "null".
+!|fitnesse.fixtures.NullAndBlankFixture|
+|nullString|blankString|nullString?|blankString?|isNull?|isBlank?|
+|null      |blank      |null       |blank        |Y      |Y      |
+|          |           |           |             |Y      |Y      |
+|bob       |micah      |           |             |N      |N      |
+
+----
 !-FitNesse-! sin egen dokumentasjon av [[!-ColumnFixture-!][.FitNesse.UserGuide.ColumnFixture]]
+!-FitNesse-! sin egen dokumentasjon av [[Blank og null][.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestBlankAndNullCells]]
