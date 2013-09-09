@@ -1,4 +1,4 @@
-!include -setup <FitNesseWorkShop.NettButikk.RegistrerVarer
+!include -setup <WebShop.NettButikk.RegistrerVarer
 
 |Handlekurv                                         |
 |Antall|Varenavn|Legg i handlekurven ()             |

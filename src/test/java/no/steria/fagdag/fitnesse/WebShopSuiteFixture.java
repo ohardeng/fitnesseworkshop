@@ -18,42 +18,10 @@ import fitlibrary.suite.SuiteFixture;
 import fitlibrary.traverse.FitLibrarySelector;
 
 public class WebShopSuiteFixture extends SuiteFixture {
-	List<ListData> list = new ArrayList<>();
-	
 	private WebShop webShop = new WebShop();
 	private Handlekurv handlekurv;
 
-	public ColumnFixture subtraksjon() { 
-		return new SubtraksjonColumnFixture();
-	}
-	
-	public SetUpFixture setUpColorLinker() {
-		return new SetUpColorLinker();
-	}
-	
-	public RowEntryFixture rowEntryColorLinker() {
-		return new RowEntryColorLinker();
-	}
-	
-	public SetUpFixture testDataForValideringAvLister() { 
-		list = new ArrayList<>();
-		return new SetUpListData(list);
-	}
-	
-	public Set<ListData> demonstrasjonAvSetFixture() { 
-		return new HashSet<ListData>(list);
-	}
-	
-	public List<ListData> demonstrasjonAvArrayFixture() { 
-		return list;
-	}
-	
-	public SubsetFixture demonstrasjonAvSubSetFixture() {
-		return new SubsetFixture(list);
-	}
-	
 	public WebShopSuiteFixture() {
-		System.out.println("Hellu");
 		setSystemUnderTest(webShop);
 	}
 
