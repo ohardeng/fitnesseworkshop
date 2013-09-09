@@ -1,0 +1,22 @@
+!1 !-Den nyttigste tingen i hele FitLibrary -!
+!-DoFixture er brukt til å definere og teste en arbeidsflyt. Målet for implementasjonen var å gjøre testene mer lesbare, 
+men den er mange andre fordeler som også har kommet ut av den opprinnlige implementasjonen. -!
+
+!-I testene som vi har skrevet her er det bare en klasse som det referes eksplsitt til og det er FitxtureDemo. Andre klasser 
+vi har behov for ligger nede i koden der den hører hjemme. Dette gjør at man f.eks. kan gjenbruke testene i forskjellige suiter 
+med forskjellige implementasjoner: <ul>
+<li> mocked/stubbed eller komplett integrasjonstest
+<li> Firefox, Chrome eller Internet Explorer 
+</ul>-!
+
+!2 Hvilken kode har jeg tilgjengelig til å skrive tester mot?
+|help|
+
+|help with | color linker |
+
+!-FitLibrary-! sin egen dokumentasjon av [[!-WhatIsInScope-!][.FitLibrary.SpecifiCations.GlobalActionsProvided.WhatIsInScope]]
+
+!2 Du vil lese mer om dette her
+!-FitLibrary-! sin egen dokumentasjon av [[!-DoFixture-!][.FitLibrary.UserGuide.FitLibraryByExample.DoFixture]] og en [[oppsummering][.FitLibrary.UserGuide.FitLibraryByExample.DoFixture.DoFixtureSummary]]
+
+Her beskrives de forskjellige nøkkelordene, hvordan du skriver testene og hvorfor
