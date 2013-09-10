@@ -10,18 +10,18 @@ For å belønne de som kjøper mye samtidig har vi innført en grense på at all
 |Bokhylle   |100 |15  |
 
 |Ny handlekurv                                     |
-|Legg |1            |stk|Leksikon   |i handlekurven|
+|Legg |1            ||Leksikon   |i handlekurven|
 |check|Frakt kostnad|10                            |
-|Legg |1            |stk|Diamantring|i handlekurven|
+|Legg |1            ||Diamantring|i handlekurven|
 |check|Frakt kostnad|0                             |
 
 |Ny handlekurv                                  |
-|Legg |1            |stk|Bokhylle|i handlekurven|
+|Legg |1            ||Bokhylle|i handlekurven|
 |show |Totalsum i handlekurven                  |
 |check|Frakt kostnad|125                        |
-|Legg |2            |stk|Leksikon|i handlekurven|
+|Legg |2            ||Leksikon|i handlekurven|
 |show |Totalsum i handlekurven                  |
 |check|Frakt kostnad|135                        |
-|Legg |1            |stk|Viskelær|i handlekurven|
+|Legg |1            ||Viskelær|i handlekurven|
 |show |Totalsum i handlekurven                  |
 |check|Frakt kostnad|0                          |

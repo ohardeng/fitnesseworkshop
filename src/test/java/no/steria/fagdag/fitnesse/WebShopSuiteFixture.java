@@ -54,8 +54,7 @@ public class WebShopSuiteFixture extends SuiteFixture {
 		handlekurv = new Handlekurv(webShop);
 	}
 	
-	public void leggStkIHandlekurven(Integer antall, Vare vare) {
+	public void leggIHandlekurven(Integer antall, Vare vare) {
 		handlekurv.leggVareIHandlekurven(vare, antall);
 	}
-
 }
