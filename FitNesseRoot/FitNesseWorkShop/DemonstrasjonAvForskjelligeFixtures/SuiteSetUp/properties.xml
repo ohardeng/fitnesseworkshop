@@ -8,7 +8,7 @@
 	<Refactor/>
 	<Search/>
 	<Static/>
-	<Suites></Suites>
+	<Suites>FitLibraryFixtures</Suites>
 	<Versions/>
 	<WhereUsed/>
 </properties>

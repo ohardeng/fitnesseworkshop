@@ -7,5 +7,6 @@
 *!
 
 !1 Toppnivået for vår nye Webshop
+!include -seamless >KjekkeVerktoy.SearchAndExecute
 
 !contents -R2 -g -p -f -h
