@@ -1,4 +1,4 @@
-package no.steria.fagdag.fitnesse;
+package no.steria.fagdag.fitnesse.webshop;
 
 import no.steria.fagdag.domene.Handlekurv;
 import no.steria.fagdag.domene.Vare;

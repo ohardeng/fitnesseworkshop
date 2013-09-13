@@ -1,4 +1,4 @@
-package no.steria.fagdag.fitnesse;
+package no.steria.fagdag.fitnesse.demo;
 
 public class ColorLinker {
 

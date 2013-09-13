@@ -1,4 +1,4 @@
-package no.steria.fagdag.fitnesse;
+package no.steria.fagdag.fitnesse.webshop;
 
 import java.util.ArrayList;
 import java.util.HashSet;

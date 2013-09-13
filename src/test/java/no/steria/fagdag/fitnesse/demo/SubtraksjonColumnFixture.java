@@ -1,4 +1,4 @@
-package no.steria.fagdag.fitnesse;
+package no.steria.fagdag.fitnesse.demo;
 
 import fit.ColumnFixture;
 public class SubtraksjonColumnFixture extends ColumnFixture {

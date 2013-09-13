@@ -1,4 +1,4 @@
-package no.steria.fagdag.fitnesse;
+package no.steria.fagdag.fitnesse.demo;
 
 import java.util.ArrayList;
 import java.util.HashSet;

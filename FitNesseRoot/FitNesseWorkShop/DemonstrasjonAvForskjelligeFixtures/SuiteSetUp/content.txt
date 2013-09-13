@@ -1,1 +1,1 @@
-!| no.steria.fagdag.fitnesse.FixtureDemo |
+!| no.steria.fagdag.fitnesse.demo.FixtureDemo |

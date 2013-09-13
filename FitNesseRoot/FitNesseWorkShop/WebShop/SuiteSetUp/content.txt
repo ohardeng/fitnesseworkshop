@@ -1,1 +1,1 @@
-| !-no.steria.fagdag.fitnesse.WebShopSuiteFixture-! |
+| !-no.steria.fagdag.fitnesse.webshop.WebShopSuiteFixture-! |
