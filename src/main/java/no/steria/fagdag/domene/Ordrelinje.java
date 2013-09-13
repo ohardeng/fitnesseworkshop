@@ -15,22 +15,10 @@ public class Ordrelinje {
 		return vare.getVarenavn();
 	}
 	
-	public Double getPris() {
-		return vare.getPris();
-	}
-	
 	public Integer getAntall() {
 		return antall;
 	}
 	
-	public Double getSum() {
-		return getPris()*getAntall();
-	}
-
-	public Double getVekt() {
-		return vare.getVekt()*getAntall();
-	}
-
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder(getClass().getSimpleName()).append("[")

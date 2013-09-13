@@ -3,37 +3,19 @@ package no.steria.fagdag.domene;
 public class Vare {
 
 	private String varenavn;
-	private Double pris;
-	private Double vekt;
-
-	public Vare(String varenavn, Double pris, Double vekt) {
-		this.varenavn = varenavn;
-		this.pris = pris == null ? 0 : pris;
-		this.vekt = vekt == null ? 0 : vekt;
-	}
 
 	public Vare(String varenavn) {
-		this(varenavn, null, null);
+		this.varenavn = varenavn;
 	}
 
 	public String getVarenavn() {
 		return varenavn;
 	}
 
-	public Double getPris() {
-		return pris;
-	}
-
-	public Double getVekt() {
-		return vekt;
-	}
-
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder(getClass().getSimpleName())
-				.append("[").append("varenavn=").append(varenavn).append(", ")
-				.append("pris=").append(pris).append(", ").append("vekt=")
-				.append(vekt).append("]");
+				.append("[").append("varenavn=").append(varenavn).append("]");
 		return sb.toString();
 	}
 
