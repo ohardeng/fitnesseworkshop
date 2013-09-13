@@ -27,10 +27,6 @@ public class Ordrelinje {
 		return getPris()*getAntall();
 	}
 
-	public Double getVekt() {
-		return vare.getVekt()*getAntall();
-	}
-
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder(getClass().getSimpleName()).append("[")
